@@ -1,2 +1,3 @@
-# upload-image-using-multer
-Image GET and POST action using  Node js, ejs, Multer Mongodb(mLab) 
+# Ei'sGallery
+
+A university project using Javascript framework
