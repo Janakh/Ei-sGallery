@@ -13,7 +13,7 @@ var Details = require('./models/details')
 var port = process.env.PORT || 3000
 
 //connect mongo
-mongoose.connect('mongodb://janakhpon:janakhponchan1998@ds125362.mlab.com:25362/mygallery');
+mongoose.connect('mongodb://');
 
 // configure multer
 var upload = multer({storage: multer.diskStorage({
@@ -121,8 +121,8 @@ passport.deserializeUser(function(obj, cb) {
 
 const FacebookStrategy = require('passport-facebook').Strategy;
 
-const FACEBOOK_APP_ID = '2162509897362005';
-const FACEBOOK_APP_SECRET = 'f127700bf2c34fbfe25bb32648905974';
+const FACEBOOK_APP_ID = '';
+const FACEBOOK_APP_SECRET = '';
 
 passport.use(new FacebookStrategy({
     clientID: FACEBOOK_APP_ID,
